@@ -1,0 +1,13 @@
+1. Compilar (Preparar la versión web)
+Primero, debes pedirle a Flutter que empaquete tus nuevos cambios. Escribe el siguiente comando y presiona Enter:
+
+Bash ----------------------------------------------------------------
+flutter build web
+
+(Espera a que el proceso termine por completo).
+
+2. Desplegar (Subir a Firebase)
+Una vez finalizada la compilación, envía esa actualización a la nube ejecutando este comando:
+
+Bash----------------------------------------------------------------
+firebase deploy --only hosting
